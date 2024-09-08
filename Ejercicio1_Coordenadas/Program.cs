@@ -33,23 +33,9 @@
         //La clase Math tiene muchos métodos, entre ellos el método Sqrt, este señor recibe un parámetro dentro de sus ( ), ese parámetro es el número que yo le mando al método para que me saque la Raíz Cuarada!
         d = Convert.ToDouble(Math.Sqrt(suma));
 
-        //Forma más primitiva de concatenar texto a través del símbolo "+"
-        Console.WriteLine("Concatenar con +");
-        Console.Write("La distancia entre los pares ordenados (" + x1 + "," + y1 + ") y (" + x2 + "," + y2 + ") es: " + d);
-
-        Console.WriteLine(" ");
-        Console.WriteLine(" ");
-
         //Forma de concatenar a través del símbolo "$" se llama Interpolación:
         Console.WriteLine("Concatenar con $");
         Console.Write($"La distancia entre los pares ordenados ({x1},{y1}) y ({x2},{y2}) es: {d}");
-
-        Console.WriteLine(" ");
-        Console.WriteLine(" ");
-
-        Console.WriteLine("Concatenar con String.Format");
-        //Forma de concatenar con la clase String.Format:
-        Console.Write(String.Format("La distancia entre los pares ordenados ({0},{1}) y ({2},{3}) es: {4}", x1, y1, x2, y2, d));
 
         Console.WriteLine(" ");
         Console.WriteLine(" ");
