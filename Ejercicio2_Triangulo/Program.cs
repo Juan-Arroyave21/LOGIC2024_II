@@ -15,6 +15,7 @@ public class Program
         Console.Write("Digite la longitud del segmento 3: ");
         seg3 = Convert.ToDouble(Console.ReadLine());
 
+        // Forma larga de utilizar el if y el else
         if ((seg1 + seg2) > seg3)
         {
             if ((seg1 + seg3) > seg2)
@@ -37,6 +38,8 @@ public class Program
         {
             isTriangle = false;
         }
+
+        // Forma corta de utilizar el if y el else
 
         if (((seg1 + seg2) > seg3) && ((seg1 + seg3) > seg2) && ((seg2 + seg3) > seg1))
         {
